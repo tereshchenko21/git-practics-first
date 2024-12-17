@@ -2,13 +2,20 @@
 
 body{
     background-color: #e7e7e7;
-}
-
-h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1{
     font-size: 50px;
     color: #666;
-    height: 100vh;
+}
+
+h2{
+    font-size: 25px;
+    color: #666;
 }
